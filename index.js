@@ -127,7 +127,6 @@ function buildTeam() {
                         })
                         break;
                 case "Finish Building Team":
-                    console.log(Team)
                     fs.writeFile("output.html", team(Team), function(err) {
                         if(err) return console.log(err);
                         console.log("Team page completed!");

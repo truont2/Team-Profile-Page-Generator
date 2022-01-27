@@ -10,7 +10,7 @@
 - [How to Contribute](#contribute)
 - [Resources](#resources)
 
-### Description
+## Description
 
 Instead of wasting time writing yourself a Team porfile page from scratch, this application provides Team managers with a quick alternative to build a professional team profile page with all the team members and some information about that member. Instead of having to manually create a html file and writing out the code to create the team profile page, this application only asks several questions and creates the webpage for you. The Manager or user will be prompted to enter their own information first. The user is then asked by the application whether they have any additional team memebers such as an Engineer or Intern. If so, the user is prompted several questions about those other team members. Once completed, the application aquires all the information that was collected from the user and creates an html file. The Html file contains card elements for each of the employees that was specified earlier with their respective information as well. 
 
@@ -20,11 +20,14 @@ This project taught be the fundamentals of using node and NPM to create an aplic
 
 ## Github Link
 
-https://github.com/truont2/portfolio-page-generator
+* https://github.com/truont2/Team-Profile-Page-Generator
 
 ## Installation
 
-To install this application, clone the necessary files in the github repository. Once done, open up the terminal in the index.js file where you will enter npm install. This will in stall the necessary packages needed to run this application. 
+To install this application:
+1. clone the necessary files in the github repository.
+2. Open up the terminal in the index.js file where you will enter npm install. This will in stall the necessary packages needed to run this application. 
+3. Application is ready to be used. Refer to the Usage section for futher instructions.
 
 ## Usage
 
@@ -37,18 +40,23 @@ node index.js
 1. First download any dependencies by opening your index,js terminal and entering "npm install". 
 2. Once completed, enter node index.js to run the application. 
 3. Answer any questions that load in the terminal. 
-4. Terminal will display "Team page completed!" to notifying the user that the readme file was sucessfully created.
+4. Terminal will display "Team page completed!" to notifying the user that the output.html file was sucessfully created.
 
 ### Video Walkthrough: 
 
-![video walkthrough](./assets/walkthrough.gif)
+This video shows the steps to install any packages and run the application after the reposition has been cloned.
 
-#### Extra screenshot:
-![screenshot](./assets/terminal.PNG)
+![video walkthrough](./assets/teamPageUsage.gif)
+
+### Webpage screenshot:
+![screenshot](./assets/teamPage.PNG)
 
 ## Test 
 
-program was run in the index.js terminal creating a file called Readmetest.md.
+This program was run in the index.js terminal creating a file called output.html
+
+![screenshot](./assets/commandLine.PNG)
+![screenshot](./assets/data.PNG)
 
 ## Contribute
 
