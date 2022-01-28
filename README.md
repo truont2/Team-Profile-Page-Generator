@@ -39,7 +39,7 @@ node index.js
 
 1. First download any dependencies by opening your index,js terminal and entering "npm install". 
 2. Once completed, enter node index.js to run the application. 
-3. Answer any questions that load in the terminal. 
+3. Answer any questions that load in the terminal for however number of employees you have. 
 4. Terminal will display "Team page completed!" to notifying the user that the output.html file was sucessfully created.
 
 ### Video Walkthrough: 
@@ -49,14 +49,17 @@ This video shows the steps to install any packages and run the application after
 ![video walkthrough](./assets/teamPageUsage.gif)
 
 ### Webpage screenshot:
+
+Screenshot of only 3 employees:
+
 ![screenshot](./assets/teamPage.PNG)
 
 ## Test 
 
-This program was run in the index.js terminal creating a file called output.html
+Test case of more than three employees:
 
 ![screenshot](./assets/commandLine.PNG)
-![screenshot](./assets/data.PNG)
+![screenshot](./assets/fiveCards.PNG)
 
 ## Contribute
 
